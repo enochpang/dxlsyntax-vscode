@@ -1,0 +1,25 @@
+{
+  "name": "dxlsyntax",
+  "displayName": "DXL Syntax",
+  "description": "Syntax highlighting for DXL",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dxl",
+      "aliases": ["DXL", "dxl"],
+      "extensions": [".dxl",".inc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dxl",
+      "scopeName": "source.dxl",
+      "path": "./syntaxes/dxl.tmLanguage.json"
+    }]
+  }
+}
