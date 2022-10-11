@@ -3,6 +3,8 @@
   "displayName": "DXL Syntax",
   "description": "Syntax highlighting for DXL",
   "version": "0.1.0",
+  "publisher": "enochpang",
+  "homepage": "https://github.com/enochpang/dxlsyntax-vscode",
   "engines": {
     "vscode": "^1.72.0"
   },
